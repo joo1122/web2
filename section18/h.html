@@ -22,7 +22,18 @@
             position: absolute;
             top: 100px;
             left: 100px;
+            transition-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
             
+        }
+        .container >  div{
+           
+            
+            position: absolute;
+            transition-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
         }
         .stick1{
             width: 60px;
@@ -30,7 +41,7 @@
             background-color:orangered;
             position: absolute;
             transform-origin: top;
-            animation: stick1 10s infinite;
+            animation-name: stick1 5s infinite;
             
             
         }
@@ -42,7 +53,7 @@
             top: 70px;
             left: 60px;
             transform-origin: left;
-            animation: stick2 10s ;
+            animation-name: stick2 5s ;
             /* animation-delay: 5s; */
            
            
