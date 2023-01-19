@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            border: 1px solid #222;
+            
+        }
+        .container > div {
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            border:1px solid #444 ;
+           
+        }
+        .float-align{
+            float:left;
+            margin-top: 200px;
+            
+        }
+        .flex-con{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="float-align"></div>
+        <div class="float-align"></div>
+        <div class="float-align"></div>
+       
+    </div>
+    <div class="container flex-con">
+        <div class="flex-align"></div>
+        <div class="flex-align"></div>
+        <div class="flex-align"></div>
+        
+    </div>
+</body>
+</html>
